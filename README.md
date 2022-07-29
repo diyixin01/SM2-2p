@@ -95,55 +95,43 @@ close（clienfd）
 ## 代码分析
 
 ## SM21_2p_dec.py
-#### Data receive
+#### 私钥设置
 
-![image](https://user-images.githubusercontent.com/75195549/181522008-6cd28c11-1e89-477a-8573-ecdd2c772e92.png)
-
-
-#### create k-value table
+![image](https://user-images.githubusercontent.com/75195549/181732206-cf967423-2e65-4278-b465-aa25aa800860.png)
 
 
-![image](https://user-images.githubusercontent.com/75195549/181522138-2296e947-4a33-49e5-a9d2-0a5248b8abeb.png)
+#### 椭圆曲线基本参数设置
+
+
+![image](https://user-images.githubusercontent.com/75195549/181732281-8d76085a-d943-42c9-a58c-fc9033b66503.png)
 
 
 
-#### compute h^ab
+#### uint_to_str
 
-![image](https://user-images.githubusercontent.com/75195549/181522268-c36fc2a0-43cf-41b1-97a2-64c86ab60cea.png)
+int类型转str类型
 
 
-#### send H_ab and data set
+#### 基础左移右移以及运算操作
 
-![image](https://user-images.githubusercontent.com/75195549/181522379-16da104e-331d-47a9-a752-97961c3f777b.png)
+![image](https://user-images.githubusercontent.com/75195549/181732542-584d04b1-25e3-46b3-b35b-de7e028fccdd.png)
+
+#### add(x1,y1,x2,y2)
+椭圆曲线加
+#### mul_add(x,y,k):
+椭圆曲线乘
+
+#### 基础socket编程
+
+
+![image](https://user-images.githubusercontent.com/75195549/181732848-80a9c70e-7520-4b41-a21c-e4bd65702d5c.png)
+
 
 ## SM21_2p_dec.py
-#### compute key-value
-
-![image](https://user-images.githubusercontent.com/75195549/181522567-a254ded1-cc62-49a2-bf00-984fef899c7b.png)
+#### 接受到消息后进行运算
 
 
-
-#### send k and v
-
-
-
-![image](https://user-images.githubusercontent.com/75195549/181522688-e0e1b70f-5cd3-48a3-acfa-0e5c6f6c38fc.png)
-
-
-#### receive H_ab and data set S
-
-
-![image](https://user-images.githubusercontent.com/75195549/181522786-2b385fa8-2980-4177-9bb5-f241a9b525a0.png)
-
-
-
-#### detection
-
-
-![image](https://user-images.githubusercontent.com/75195549/181522846-aebd8474-3d62-42a8-b14c-33e87207d9c4.png)
-
-
-
+![image](https://user-images.githubusercontent.com/75195549/181733023-8b8116a7-6311-4202-81c5-3a2745c68902.png)
 
 
 

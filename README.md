@@ -149,53 +149,49 @@ int类型转str类型
 
 ## 实验原理
 
-第一步：生成A、B的私钥
+
+![image](https://user-images.githubusercontent.com/75195549/181738035-ace63b96-4bc4-4c87-84ce-4c02e1eb8048.png)
 
 
-第二步：A生成密文，传给B
+首先A生成私钥的一个d1，计算P1，发送给B，B生成私钥的另一个d2,计算公钥P
 
+A计算一个Z并计算e，和Q1发送给B，B收到后计算r，s2，s3，A即可利用r,s2,s3来输出签名
 
-!
-
-
-第三步：B计算，并发给A
-
-
-
-第四步：按照解密方式计算得到解密的消息
-
-
+在该项目中，一方先准备建立连接，另一方接入，然后开始两方签名计算
 
 
 ## 代码分析
+#### 子私钥 d1
 
-## SM21_2p_dec.py
-#### 私钥设置
+![image](https://user-images.githubusercontent.com/75195549/181738367-df8ead0e-a9cf-4e5c-8e8b-f15f735363e9.png)
 
-
-
-#### 椭圆曲线基本参数设置
-
+#### 计算P1
+![image](https://user-images.githubusercontent.com/75195549/181738451-eedf4866-5ce1-418e-bfae-eadc1db123fa.png)
 
 
-
-#### 函数uint_to_str
-
-
-#### 基础左移右移以及运算操作
+#### 计算ZA
+![image](https://user-images.githubusercontent.com/75195549/181738554-19911558-217b-49c5-ac9e-3e1fc5ec534d.png)
 
 
-#### 函数add(x1,y1,x2,y2)
+#### 发送Q1,e
+![image](https://user-images.githubusercontent.com/75195549/181738637-7f650fab-9cc2-474b-a3a0-be08237af8c1.png)
 
-#### 函数mul_add(x,y,k):
-
-
-#### 基础socket编程
+#### 接收r,s2,s3
+![image](https://user-images.githubusercontent.com/75195549/181738690-d9eda4ae-bfab-4849-abc2-882ef86cfd7e.png)
 
 
 
-## SM21_2p_dec.py
-#### 接受到消息后进行运算
+#### 计算s
+
+![image](https://user-images.githubusercontent.com/75195549/181738726-b3c89b05-c668-4beb-849c-293117554ee1.png)
+
+
+
+
+#### 计算共享公钥P
+
+
+![image](https://user-images.githubusercontent.com/75195549/181738845-94f782b2-6da3-404b-87c7-4944e995f43f.png)
 
 
 

@@ -193,6 +193,21 @@ A计算一个Z并计算e，和Q1发送给B，B收到后计算r，s2，s3，A即�
 
 ![image](https://user-images.githubusercontent.com/75195549/181738845-94f782b2-6da3-404b-87c7-4944e995f43f.png)
 
+#### 接受e
+
+![image](https://user-images.githubusercontent.com/75195549/181739172-c89ff700-0453-4428-b1f1-4fe9bd208d69.png)
+
+
+#### 接受Q1
+
+![image](https://user-images.githubusercontent.com/75195549/181739226-d2ffc9ee-52a8-4cd4-9039-4307255be830.png)
+
+
+
+#### 发送r,s2,s3
+
+
+![image](https://user-images.githubusercontent.com/75195549/181739324-33ad7edd-4e0e-43b2-b5e3-326f823ca614.png)
 
 
 ## 结果展示

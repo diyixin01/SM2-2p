@@ -107,7 +107,7 @@ close（clienfd）
 
 
 
-#### uint_to_str
+#### 函数uint_to_str
 
 int类型转str类型
 
@@ -116,9 +116,9 @@ int类型转str类型
 
 ![image](https://user-images.githubusercontent.com/75195549/181732542-584d04b1-25e3-46b3-b35b-de7e028fccdd.png)
 
-#### add(x1,y1,x2,y2)
+#### 函数add(x1,y1,x2,y2)
 椭圆曲线加
-#### mul_add(x,y,k):
+#### 函数mul_add(x,y,k):
 椭圆曲线乘
 
 #### 基础socket编程

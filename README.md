@@ -15,7 +15,8 @@
 
 随后输入py xxx.py运行程序：
 
-![image](https://user-images.githubusercontent.com/75195549/181517516-71a86a7e-e426-41b0-930d-ca9f367dd206.png)
+
+![image](https://user-images.githubusercontent.com/75195549/181740630-90821f47-98d9-44ab-8cf5-22a9ba3f35e4.png)
 
 
 记住：先运行服务器端再运行客户端
@@ -211,4 +212,9 @@ A计算一个Z并计算e，和Q1发送给B，B收到后计算r，s2，s3，A即�
 
 
 ## 结果展示
+
+
+![image](https://user-images.githubusercontent.com/75195549/181740544-db3361f6-3424-4932-a1d5-0e8c6c42d9dc.png)
+
+
 
